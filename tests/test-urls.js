@@ -26,8 +26,8 @@ app.get('/c/*', function(req, res) {
 });
 
 var test = function(url) {
-	var req = new process.EventEmitter();
-	var res = new process.EventEmitter();
+	var req = require('events');
+	var res = require('events');
 
 	req.method = 'GET';
 	req.url = url;

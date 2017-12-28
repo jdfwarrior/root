@@ -24,7 +24,7 @@ var Root = function() {
 	this.setMaxListeners(0);
 };
 
-Root.prototype.__proto__ = process.EventEmitter.prototype;
+Root.prototype.__proto__ = require('events');
 
 Root.prototype.use = function(arg) {
 	if (typeof arg === 'function') {
