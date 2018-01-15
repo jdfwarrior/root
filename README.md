@@ -1,4 +1,6 @@
 # root
+A fork of the original `root` module by [mafintosh](https://github.com/mafintosh/) to implement fixes that haven't been merged in from submitted PRs. 
+All credit belongs to the original author.
 
 A super lightweight web framework with routing and prototype [mixin](https://github.com/mafintosh/protein) support.
 
